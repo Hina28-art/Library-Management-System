@@ -1,0 +1,21 @@
+This Java code implements a simple Library Management System, allowing users to manage a collection of books through a command-line interface. 
+It consists of two main classes: Book and Library. The Book class encapsulates the properties of a book, including its title, author, and 
+availability status. The constructor initializes these attributes, and various getter methods provide access to them. Additionally, there is a 
+method to change the availability of the book, along with a toString method that formats the book's information for easy display.
+
+The Library class manages a collection of Book objects using an ArrayList. It provides several functionalities:
+      1) Adding Books: Users can add new books to the library.
+      2) Removing Books: Users can remove books based on their title, with feedback if the book is not found.
+      3) Displaying Available Books: The system can list all books currently available for borrowing.
+      4) Searching for Books: Users can search for specific books, receiving a message whether the book exists and is available.
+      5) Borrowing and Returning Books: The library allows users to borrow books if they are available and return them, updating the availability 
+        status accordingly.
+        
+In the main method, a menu-driven approach facilitates user interaction. Initially, the system adds a few books to the library. 
+The user is presented with a menu that includes options to display available books, borrow or return books, add or remove books, and search for books. 
+The user's choice dictates which action to perform, with appropriate prompts for necessary input.
+
+The Program is completely based on OOPs concept.
+
+
+  
